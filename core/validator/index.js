@@ -1,4 +1,3 @@
-// A simple validator, can be replaced with a more robust one like Joi
 function validate(data, schema) {
   const { error, value } = schema.validate(data);
   if (error) {
